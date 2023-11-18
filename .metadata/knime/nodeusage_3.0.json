@@ -1,0 +1,101 @@
+{
+    "version": "5.1.2.v202310091347",
+    "created": "2023-11-18 20:20",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.database.extension.mssql.node.connector.MSSQLDBConnectorNodeFactory#Microsoft SQL Server Connector",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 304,
+                "nrcreated": 0,
+                "successor": "org.knime.database.node.io.write.DBWriteNodeFactory#DB Writer"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory#CSV Reader",
+                "nrexecs": 9,
+                "nrfails": 0,
+                "exectime": 4090,
+                "nrcreated": 2,
+                "successor": "org.knime.database.node.io.write.DBWriteNodeFactory#DB Writer"
+            },
+            {
+                "id": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 768,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 7,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 591,
+                "nrcreated": 1,
+                "successor": "org.knime.database.node.io.write.DBWriteNodeFactory#DB Writer"
+            },
+            {
+                "id": "org.knime.database.node.io.write.DBWriteNodeFactory#DB Writer",
+                "nrexecs": 5,
+                "nrfails": 8,
+                "exectime": 28346,
+                "nrcreated": 0,
+                "successor": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory#Excel Writer"
+            },
+            {
+                "id": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory#Excel Writer",
+                "nrexecs": 4,
+                "nrfails": 2,
+                "exectime": 1553,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory#Excel Reader",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 1225,
+                "nrcreated": 4,
+                "successor": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value"
+            },
+            {
+                "id": "org.knime.database.node.manipulation.query.DBSQLQueryNodeFactory#DB Query",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+            "WEB_UI": 11
+        }
+    },
+    "uptime": 2367780,
+    "workflowsOpened": 2,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "starter",
+    "launches": 3,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 4682627,
+    "crashes": 0,
+    "properlyShutDown": false
+}

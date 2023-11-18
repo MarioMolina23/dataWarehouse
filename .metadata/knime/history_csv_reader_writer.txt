@@ -1,0 +1,2 @@
+D:\IIIC 2023\dataWarehouse\salida_final2.csv
+D:\IIIC 2023\dataWarehouse\knime\players_20.csv
