@@ -40,11 +40,14 @@ CREATE TABLE Dim_Ventas (
  FOREIGN KEY (Vehiculo_ID) REFERENCES Dim_Vehiculo(Vehiculo_ID)
  );
 
- SELECT* FROM Dim_Ventas;
-  SELECT* FROM Dim_Vehiculo;
 
 
+----- Cambios realizados para que funcione el VS ---
 
   ALTER TABLE Dim_Cliente ALTER COLUMN Cliente_ID INT NOT NULL;
    ALTER TABLE Dim_Accesorio ALTER COLUMN Accesorio_ID INT NOT NULL;
    ALTER TABLE Dim_Vehiculo ALTER COLUMN Cliente_ID INT NOT NULL;
+
+
+ SELECT* FROM Dim_Ventas;
+  SELECT* FROM Dim_Vehiculo;
